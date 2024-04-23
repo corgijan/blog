@@ -37,7 +37,7 @@ navbar-links:
   projects: "projects"
   #Resources:
   #  - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://www.corgijan.dev"
+  #Author's home: "https://www.corgijan.dev"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -46,8 +46,9 @@ navbar-links:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
+#exclude:
+ # - _posts/2024-04-23-welcome-to-jekyll.markdown
+  #- _posts/2024-04-23-test.markdown
 #   - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile
