@@ -69,9 +69,6 @@ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
           <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '/' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
         </span>
         &nbsp;&bull;&nbsp;
-        <span class="author-site">
-          <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '/' | absolute_url }}{% endif %}">Impressum</a>
-        </span>
       {% endif %}
 
       {% if site.matomo %}
@@ -86,7 +83,9 @@ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         <a title="Edit this page on GitHub" href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="text_muted">Edit page</a>
        {% endif%}
 
-        <a title="Edit this page on GitHub" href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="text_muted">Edit page</a>
+        <span class="author-site">
+          <a href="http://www.corgi.wiki/impressum">Impressum</a>
+        </span>
       </p>
       </div>
     </div>

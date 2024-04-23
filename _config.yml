@@ -59,7 +59,7 @@ navbar-links:
 #   - vendor/gems/
 #   - vendor/ruby/
 #
-avatar: "https://avatars.githubusercontent.com/u/70795482?v=4"
+avatar: "/assets/images/ava.jpg"
 
 
 # Select the social network links that you want to show in the footer.
