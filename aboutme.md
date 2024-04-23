@@ -14,12 +14,12 @@ I'm a master's student at TU Dortmund University, where I delve into the fascina
 At TU Dortmund, I lead the Cybersecurity Working Group and am actively involved in nurturing the TU Software Architecture Community.
 
 ## Corgis and Coffee
-Im also a big fan of Corgis (hence the name) and I'm actively involved in the breeding and breeding culture of Corgis in Germany and Internationally. Also I build and maintain [Corgi.Wiki](http://corgi.wiki)
+Im also a big fan of Corgis (hence the name) and I'm actively involved in the breeding and breeding culture of Corgis in Germany and internationally. Also I build and maintain [Corgi.Wiki](http://corgi.wiki)
 
-Furthermore I'm a proud owner of a Rancilio Silvia (the Linux of portafilters) and drinking as much specialt coffee as I (safely) can. 
+Furthermore I'm a proud owner of a Rancilio Silvia (the Linux of portafilters) and drinking as much speciality coffee as I (safely) can. 
 
 ## Software Developer  & OSS-Work
 
-With a focus on DevOps within the IoT domain, I've spent years learning and improving my skills as a software developer. 
+With a focus on DevOps within the IoT domain, I've spent my time learning and improving my skills as a software engineer. 
 
 Feel free to explore more about my work and interests on this website!
