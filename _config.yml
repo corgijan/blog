@@ -103,11 +103,11 @@ url-pretty: "blog.corgijan.com"
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 #
 
-page-col: "#404040"             # Dark Gray
+page-col: "rgb(48,52,54)"             # Dark Gray
 text-col: "#CCCCCC"             # Light Gray
 link-col: "#008AFF"             # Blue
 hover-col: "#0085A1"            # Light Blue
-navbar-col: "#303030"           # Dark Gray
+navbar-col: "rgb(106,99,87)"           # Dark Gray
 navbar-text-col: "#CCCCCC"      # Light Gray
 navbar-border-col: "#666666"    # Medium Gray
 footer-col: "#303030"           # Dark Gray
