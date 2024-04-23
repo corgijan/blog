@@ -2,16 +2,12 @@
 layout: post
 title: Farbgenetik des Welsh Corgi (GER)
 subtitle: 
-cover-img: /assets/images/dog2.jpg
+cover-img: /assets/images/dog6_merle.jpg
 thumbnail-img:  
 share-img: 
 tags: [corgi, genetics]
 author: Jan Vaorin
 ---
-
-<center>
-<img src="/assets/images/dog1.png" width="450">
-</center>
 
 
 
@@ -74,7 +70,7 @@ Es gibt vier große Modifikatoren, die den Phänotyp des ***A-LoKus*** beinfluss
 ###   Der D-Lokus 
 <center>
 
-  <img width="300" src="/assets/images/dog3_silver.jpg">
+  <img width="500" src="/assets/images/dog3_silver.jpg">
 
 </center>
 
@@ -93,7 +89,7 @@ Dilute als Farbe bringt wahrschinlich eine erhöhte Chance für Hautkrankheiten 
 
 ###   Der B-Lokus 
 <center>
-<img width="300" src="/assets/images/dog4_red.jpg" >
+<img width="500" src="/assets/images/dog4_red.jpg" >
 </center>
 
 [^ib1][^ib2]
@@ -110,7 +106,7 @@ Der braune Farbschlag der Cardigans ist der Gleiche wie in vielen anderen Rassen
 
 ###  Der K-Lokus 
 <center>
-  <img width="300" src="/assets/images/dog1.png">
+  <img width="500" src="/assets/images/dog1.png">
 </center>
 
 [^ik1][^brindle]
@@ -125,7 +121,7 @@ Bis jetzt ist keine Verbindung von Brindle zu Krankheten bekannt. [^k] [^k2]
 
 ###   Der E-Lokus 
 <center>
-<img width="450" src="/assets/images/dog5_eloc.jpg">
+<img width="500" src="/assets/images/dog5_eloc.jpg">
 </center>
 
 > Melaninistische Maske bei einem Pem
@@ -135,7 +131,7 @@ Der E-Lokus hat zwei wichtige Ausprägungen :  Zum Ersten die schwarze Maske (ob
 Pink als Farbe ist sehr wahrscheinlich nicht gesundheitsgefährdend. Da Pink allerdings alle anderen Modifikatoren überdeckt, können andere , unter Umständen gefährlichere, Farbmodifikationen nicht sicher erkannt werden. Jedoch können bei einem nicht zu vernachlässigendem Anteil Dilute an einer verdünnten Nasenfarbe und Liver/Braun an einer Braunen Nase erkannt werden.[^e][^e2]
 ## Merle
 <center>
-  <img wdith="450" src="/assets/images/dog6_merle.jpg">
+  <img width="450" src="/assets/images/dog6_merle.jpg">
 </center>
 
 > Merlefarbene Border Collies
