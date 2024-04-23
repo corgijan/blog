@@ -110,7 +110,7 @@ hover-col: "#0085A1"            # Light Blue
 navbar-col: "rgb(106,99,87)"           # Dark Gray
 navbar-text-col: "#CCCCCC"      # Light Gray
 navbar-border-col: "#666666"    # Medium Gray
-footer-col: "#303030"           # Dark Gray
+footer-col: "rgb(106,99,87)"          # Dark Gray
 footer-text-col: "#CCCCCC"      # Light Gray
 footer-link-col: "#008AFF"      # Blue
 footer-hover-col: "#0085A1"     # Light Blue
