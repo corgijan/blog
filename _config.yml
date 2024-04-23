@@ -107,10 +107,10 @@ page-col: "rgb(48,52,54)"             # Dark Gray
 text-col: "#CCCCCC"             # Light Gray
 link-col: "#008AFF"             # Blue
 hover-col: "#0085A1"            # Light Blue
-navbar-col: "#343a40"           # Dark Gray
+navbar-col: "#303030"           # Dark Gray
 navbar-text-col: "#CCCCCC"      # Light Gray
 navbar-border-col: "#666666"    # Medium Gray
-footer-col: "#343a40"          # Dark Gray
+footer-col: "#303030"           # Dark Gray
 footer-text-col: "#CCCCCC"      # Light Gray
 footer-link-col: "#008AFF"      # Blue
 footer-hover-col: "#0085A1"     # Light Blue

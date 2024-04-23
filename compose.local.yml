@@ -1,7 +1,6 @@
 services:
   jekyll:
     image: bretfisher/jekyll-serve
-    command: sh -c "JEKYLL_ENV=production bundle exec jekyll build --trace "
     volumes:
       - .:/site
     ports:
