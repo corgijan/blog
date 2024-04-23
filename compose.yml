@@ -8,7 +8,7 @@ services:
     volumes:
       - .:/site
 
- nginx:
+  nginx:
     image: nginx
     volumes:
       - ./_site:/usr/share/nginx/html
