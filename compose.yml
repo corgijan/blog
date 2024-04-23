@@ -7,12 +7,12 @@ services:
     command: sh -c "JEKYLL_ENV=production bundle exec jekyll build --trace"
     volumes:
       - .:/site
+
  nginx:
     image: nginx
     volumes:
       - ./_site:/usr/share/nginx/html
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-      - ./nginx/404.html:/usr/share/nginx/html/404.html
+      - ./_site/404.html:/usr/share/nginx/html/404.html
     ports:
       - "11001:80"
     depends_on:
