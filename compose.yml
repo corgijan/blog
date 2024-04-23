@@ -16,4 +16,4 @@ services:
       - "11001:80"
     depends_on:
       - jekyll
-    command: /bin/sh -c "nginx -g 'daemon off'"
+    command: /bin/sh -c "nginx -g 'daemon off;'"
