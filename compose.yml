@@ -1,7 +1,19 @@
+version: '3.7'
+
 services:
+
   jekyll:
     image: bretfisher/jekyll-serve
+    command: sh -c "JEKYLL_ENV=production bundle exec jekyll build --trace && touch /site/.jekyll_finished"
     volumes:
       - .:/site
+
+  nginx:
+    image: nginx
+    volumes:
+      - ./_site:/usr/share/nginx/html
     ports:
-      - '4000:4000'
+      - "80:80"
+    depends_on:
+      - jekyll
+    command: /bin/sh -c "while [ ! -f /site/.jekyll_finished ]; do sleep 1; done && nginx -g 'daemon off;'"
