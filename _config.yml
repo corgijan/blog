@@ -21,7 +21,7 @@
 title: corgijans blog
 email: jan.vaorin@tu-dortmund.de
 description: >- # this means to ignore newlines until "baseurl:"
-  corgijans awsome blog about Corgis and CS
+  corgijans awsome blog about Corgis and computer science
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.corgijan.dev" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
@@ -30,6 +30,14 @@ plugins:
   - jekyll-feed
 site:
   exclude-ads: true
+
+navbar-links:
+  home: "index"
+  about me: "aboutme"
+  projects: "projects"
+  Resources:
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://www.corgijan.dev"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -91,3 +99,18 @@ social-network-links:
 #  untappd: yourname
 #
 url-pretty: "blog.corgijan.com"
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+#
+
+page-col: "#404040"             # Dark Gray
+text-col: "#CCCCCC"             # Light Gray
+link-col: "#008AFF"             # Blue
+hover-col: "#0085A1"            # Light Blue
+navbar-col: "#303030"           # Dark Gray
+navbar-text-col: "#CCCCCC"      # Light Gray
+navbar-border-col: "#666666"    # Medium Gray
+footer-col: "#303030"           # Dark Gray
+footer-text-col: "#CCCCCC"      # Light Gray
+footer-link-col: "#008AFF"      # Blue
+footer-hover-col: "#0085A1"     # Light Blue
