@@ -13,7 +13,7 @@ services:
     volumes:
       - ./_site:/usr/share/nginx/html
     ports:
-      - "80:80"
+      - "11001:80"
     depends_on:
       - jekyll
     command: /bin/sh -c "while [ ! -f /site/.jekyll_finished ]; do sleep 1; done && nginx -g 'daemon off;'"
