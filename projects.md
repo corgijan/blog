@@ -23,6 +23,6 @@ My Projects:
 #### Themed-URLs
 [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/themed-urls/) to switch browser theme color based on domain to casually discriminate environments like staging / dev / prod. Either a border or change the whole browser-theme and never break prod again (at least see if you are looking at the wrong ENV)!
 
-<a href="/assets/images/urlcol.png">
-    <img src="/assets/images/urlcol.png" alt="drawing" width="300"/>
+<a href="/assets/images/urlco.png">
+    <img src="/assets/images/urlco.png" alt="drawing" width="300"/>
 </a>
