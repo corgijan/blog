@@ -10,6 +10,7 @@ services:
 
   nginx:
     image: nginx
+    restart: always
     volumes:
       - ./_site:/usr/share/nginx/html
       - ./config.nginx:/etc/nginx/conf.d/default.conf
