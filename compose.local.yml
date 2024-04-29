@@ -1,10 +1,9 @@
 services:
   jekyll:
     image: bretfisher/jekyll-serve
-    restart: always
     volumes:
       - .:/site
     ports:
-      - "4000:5000"
+      - "4000:4000"
 
   
