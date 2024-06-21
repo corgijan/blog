@@ -18,8 +18,8 @@ cover-img: https://images.unsplash.com/photo-1712741042337-124ff2469441?q=80&w=1
 
 ## Small Backup Solution (Smbackup)
 This [Backup Solution](https://github.com/corgijan/small-backup) is the most simple app for backup that I could imagine. I wanted something that would run well on my PI, could be written in a day or two and is easy enough for my family to use. I landed on Rust for performance reasons and on a web ui for simplicity (and thats what I can hack together in a day). It is now a file server esque design with the ability to upload files and replicate all uploaded files in diffent locations (for me its an HDD on my PI and an SSD). S3 support and zipped folder downloads may come soon. <br>
-<a href="/assets/images/rezepte.png">
-    <img src="https://private-user-images.githubusercontent.com/70795482/341672787-6c39d35c-8055-4501-b7fe-7cdc65fe3015.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg5NzU3MjgsIm5iZiI6MTcxODk3NTQyOCwicGF0aCI6Ii83MDc5NTQ4Mi8zNDE2NzI3ODctNmMzOWQzNWMtODA1NS00NTAxLWI3ZmUtN2NkYzY1ZmUzMDE1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjIxVDEzMTAyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk0NTU4MjQ1MjlmMDQ5NDczMzhkYmZiMjFmMmNmZGU1Y2VmZTFmZGZhNDExMmY1MWMyNjhmZjk0YWI2MzM5NzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.TkPm0vS_2i4nd-P1w29bNYy7Aw6ca6yw_mquSPRwvkE" alt="drawing" width="300"/>
+<a href="/assets/images/smbackup.png">
+    <img src="/assets/images/smbackup.png" alt="drawing" width="300"/>
 </a>
 
 ## Themed-URLs
