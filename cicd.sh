@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory where your Git repository is located
-REPO_DIR="~/blog"
+REPO_DIR="/root/blog"
 
 # Navigate to the repository directory
 cd "$REPO_DIR" || exit
