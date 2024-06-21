@@ -7,19 +7,20 @@ cover-img: https://images.unsplash.com/photo-1558022103-603c34ab10ce?q=80&w=2071
 ---
 ## Jan Vaorin
 
-I'm a master's student at TU Dortmund University, where I delve into the fascinating realms of cybersecurity, cloud security, databases, and DevSecOps / secure software development lifecycle.
-
+I'm a master's student at TU Dortmund University, where I mainly focus on cybersecurity, cloud security, databases, efficient data pipelines and DevSecOps / secure software development lifecycle. My work experience is at an IOT SaaS platform developer that does data analyses and aggregation. In my free time I'm always on the lookout for new things to explore with my Corgi. 
 ## Cybersecurity Advocate
 
 At TU Dortmund, I lead the Cybersecurity Working Group and am actively involved in nurturing the TU Software Architecture Community.
 
-## Corgis and Coffee
+## Corgis and Coffee and Bouldering
 Im also a big fan of Corgis (hence the name) and I'm actively involved in the breeding and breeding culture of Corgis in Germany and internationally. Also I build and maintain [Corgi.Wiki](http://corgi.wiki)
 
-Furthermore I'm a proud owner of a Rancilio Silvia (the Linux of portafilters) and drinking as much speciality coffee as I (safely) can. 
+Furthermore I'm a proud owner of a Rancilio Silvia (the Linux of portafilters) and drinking as much coffee as I (safely) can. 
 
-## Software Developer  & OSS-Work
+If im not programming or designing software you can find me bouldering or on my bike. 
 
-With a focus on DevOps within the IoT domain, I've spent my time learning and improving my skills as a software engineer. 
+## Faculty work
+Im organizing the cybersecurity meeting at TU Dortmund where I do theoretical courses like "How does Open Source Intelligence work" and "What is confidential computing" and practical (programming) challenges sometimes even in cooperation with businesses participating in the cybersec scene. 
 
-Feel free to explore more about my work and interests on this website!
+Im also an active representative of the student Body where I focus on the inter-student-body relations of the STEM field students. 
+
