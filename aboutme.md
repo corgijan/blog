@@ -7,7 +7,7 @@ cover-img: https://images.unsplash.com/photo-1558022103-603c34ab10ce?q=80&w=2071
 ---
 ## Jan Vaorin
 
-I'm a master's student at TU Dortmund University, where I mainly focus on cybersecurity, cloud security, databases, efficient data pipelines and DevSecOps / secure software development lifecycle. My work experience is at an IOT SaaS platform developer that does data analyses and aggregation. In my free time I'm always on the lookout for new things to explore with my Corgi. 
+I'm a master's student at TU Dortmund University, where I mainly focus on cybersecurity, cloud security, databases, efficient data pipelines and DevSecOps / secure software development lifecycle. My work experience is at an IOT SaaS platform developer that does data analyses and aggregation. In my free time I'm always on the lookout for new things to explore with my Corgi. Also see [My private projects](https://blog.corgijan.dev/projects)
 ## Cybersecurity Advocate
 
 At TU Dortmund, I lead the Cybersecurity Working Group and am actively involved in nurturing the TU Software Architecture Community.
