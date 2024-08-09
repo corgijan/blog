@@ -36,6 +36,7 @@ navbar-links:
   home: "index"
   about me: "aboutme"
   projects: "projects"
+  recipes: "rezepte.corgijan.dev"
   #Resources:
   #  - Learn markdown: "https://www.markdowntutorial.com/"
   #Author's home: "https://www.corgijan.dev"
