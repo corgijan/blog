@@ -1,8 +1,12 @@
 services:
   jekyll:
     image: bretfisher/jekyll-serve
+    environment:
+      JEKYLL_ROOTLESS: "1"
+      JEKYLL_UID: "0"
+      JEKYLL_GID: "0"
     volumes:
-      - .:/site
+      - .:/site:z
     ports:
       - "4000:4000"
 
