@@ -22,5 +22,5 @@ If im not programming or designing software you can find me bouldering or on my 
 ## Faculty work
 Im organizing the cybersecurity meeting at TU Dortmund where I do theoretical courses like "How does Open Source Intelligence work" and "What is confidential computing" and practical (programming) challenges sometimes even in cooperation with businesses participating in the cybersec scene. 
 
-Im also an active representative of the student Body where I focus on the inter-student-body relations of the STEM field students. 
+Im also an active representative of the student body where I focus on the inter-student-body relations of the STEM field students. 
 

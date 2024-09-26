@@ -37,7 +37,12 @@ navbar-links:
   about me: "aboutme"
   projects: "projects"
   recipes: "https://rezepte.corgijan.dev"
-  #Resources:
+  Resources:
+    - recipes: "https://rezepte.corgijan.dev" 
+    - corgi.wiki: "http://corgi.wiki"
+    - git instance: "http://git.corgijan.dev"
+    - blog: "http://blog.corgijan.dev"
+    - github: "http://github.com/corgijan"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
   #Author's home: "https://www.corgijan.dev"
 # Exclude from processing.
