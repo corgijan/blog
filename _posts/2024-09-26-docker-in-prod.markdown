@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker Compose: Is It Production Ready? 
+title: Docker Compose - Fit For Production Ready? 
 subtitle: 
 cover-img: /assets/images/whale.jpg
 thumbnail-img:  
@@ -9,7 +9,7 @@ tags: [docker, devops]
 author: Jan Vaorin
 ---
 
-# Docker Compose: Is It Production Ready? 
+# Docker Compose: Is It Fit For Production? 
 
 There’s been an ongoing debate in the tech world over whether Docker Compose is a viable tool for deploying workloads in production. Many argue it’s a clear no, but as with many things in software development, **it depends**.
 
