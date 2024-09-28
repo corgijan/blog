@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker Compose - Fit For Production Ready? 
+title: Docker Compose - Fit For Production? 
 subtitle: 
 cover-img: /assets/images/whale.jpg
 thumbnail-img:  
