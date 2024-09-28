@@ -51,8 +51,8 @@ Docker Compose may be production-worthy if your app meets these criteria:
 When your system outgrows your current capacity, it’s time to look at scaling. Some options include:
 
 - **Move the database**: Shift your database to another server or a managed service.
-- **Upgrade Docker**: Moving from Docker Compose to Docker Swarm involves minimal friction as they share many concepts.
-- **Move to Kubernetes**: This introduces significant management overhead but is the industry standard for large-scale applications.
+- **Upgrade to Docker-Swarm**: Moving from Docker Compose to Docker Swarm involves minimal friction as they share many concepts but multiple servers can handle your load.
+- **Move to Kubernetes**: This introduces significant management overhead but is the industry standard for large-scale applications orchestrating a multitude of servers and containers.
 
 Remember, though: **Done is better than perfect.** Getting your product to market is more important than having the perfect deployment strategy. You can always change your deployment method later as your needs evolve.
 
@@ -82,5 +82,5 @@ docker compose -f compose.yml -f production.yml up -d
 ```
 This allows you to keep your dev and prod configurations separate while maintaining simplicity.
 
-#Conclusion
+# Conclusion
 Docker Compose can be a perfectly acceptable choice for production environments, especially for simpler, low-maintenance applications. It may not have the power of Kubernetes, but its simplicity, ease of deployment, and low overhead make it a viable option for many use cases. Keep things simple, scalable, and cost-effective, and remember: getting the product out the door is more important than having the perfect setup from day one.
