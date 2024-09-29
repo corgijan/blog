@@ -11,6 +11,8 @@ author: Jan Vaorin
 
 # Docker Compose: Is It Fit For Production? 
 
+## hear me out
+
 There’s been an ongoing debate in the tech world over whether Docker Compose is a viable tool for deploying workloads in production. Many argue it’s a clear no, but as with many things in software development, **it depends**.
 
 Saying "it's never a good idea" oversimplifies things. There are many production environments where Docker Compose works exceptionally well if you understand its limitations and match them to your use case.
