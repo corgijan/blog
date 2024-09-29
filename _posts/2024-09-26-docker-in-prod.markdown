@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Docker Compose - Fit For Production? 
-subtitle: 
+subtitle: THe sleeping superhero for small apps and services
 cover-img: /assets/images/whale.jpg
 thumbnail-img:  
 share-img: 
