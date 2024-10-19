@@ -1,44 +1,32 @@
-name: Build and Deploy Jekyll Site with NGINX
+name: Build and Publish Docker Image
 
 on:
   push:
     branches:
-      - {development}
+      - development  # Trigger on push to the main branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
     
-    services:
-      nginx:
-        image: nginx:latest
-        options: --name nginx_container -p 8080:80
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # Use the Jekyll Action to build the site
-    - name: Build Jekyll site
-      uses: limjh16/jekyll-action-ts@v2
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
       with:
-        jekyll_src: .
-        jekyll_build_dir: _site
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
+        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
-    - name: Verify the site is built
-      run: ls _site
-
-    # Copy the built Jekyll site into the running NGINX container
-    - name: Copy site to NGINX container
+    - name: Build and tag Docker image
       run: |
-        docker cp _site/. nginx_container:/usr/share/nginx/html
+        docker build -t jans-blog:latest .
+        docker tag jans-blog:latest ${{ secrets.DOCKER_HUB_USERNAME }}/jans-blog:latest
 
-    # Optional: Push the NGINX container to a registry (Docker Hub example)
-    - name: Push NGINX container (optional)
+    - name: Push Docker image to Docker Hub
       run: |
-        docker commit nginx_container your-dockerhub-username/nginx-jekyll-site:latest
-        echo "${{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
-        docker push your-dockerhub-username/nginx-jekyll-site:latest
-
-    - name: Stop and clean up NGINX container
-      run: docker stop nginx_container
+        docker push ${{ secrets.DOCKER_HUB_USERNAME }}/jans-blog:latest
