@@ -25,9 +25,9 @@ jobs:
 
     - name: Build and tag Docker image
       run: |
-        docker build -t jans-blog:latest .
-        docker tag jans-blog:latest ${{ secrets.DOCKER_HUB_USERNAME }}/jans-blog:latest
+        docker build -t corgijan-blog:latest .
+        docker tag corgijan-blog:latest ${{ secrets.DOCKER_HUB_USERNAME }}/jans-blog:latest
 
     - name: Push Docker image to Docker Hub
       run: |
-        docker push ${{ secrets.DOCKER_HUB_USERNAME }}/jans-blog:latest
+        docker push ${{ secrets.DOCKER_HUB_USERNAME }}/corgijan-blog:latest
