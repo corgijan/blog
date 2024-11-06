@@ -27,12 +27,12 @@ author: Jan Vaorin
 - [Pivot (Vox Media)](https://podcasts.voxmedia.com/show/pivot)
 - [Handelsblatt Morning Briefing](https://open.spotify.com/show/1QZr5NinuorbELLt2SwLJU) [German]
 
-### Podcasts that are TECHNICALLY YouTube Videos but I Use them as Podcasts
+### Podcasts that are TECHNICALLY YouTube Videos but I use them as Podcasts
 - [Natural World Facts](https://www.youtube.com/@NaturalWorldFacts)
 > Super interesting deep-sea facts presented in a very relaxing way 
 - [Fall of Civilizations](https://www.youtube.com/@FallofCivilizations)
 > Episodes about a variety of civilizations with detailed explanations on how they fell
 - [The Primeagen](https://www.youtube.com/@ThePrimeagen)
-> Tech news and stream highlights
+> Lots of general tech news 
 - [Lunduke Journal](https://www.youtube.com/@BryanLunduke)
 > Critical Linux news, more or less well-researched
