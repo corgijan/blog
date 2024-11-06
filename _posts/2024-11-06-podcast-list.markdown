@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Podcast list 
-subtitle: An updated list of podcast I enjoyed over time and listed to the most
+title: Podcast List 
+subtitle: An updated list of podcasts I've enjoyed over time and listened to the most
 cover-img: /assets/images/img2.jpg
 thumbnail-img:  
 share-img: 
@@ -9,30 +9,30 @@ tags: [podcast]
 author: Jan Vaorin
 ---
 # Podcast List
-> Links are either Spotify or Youtube, I'm using [AntennaPod](https://antennapod.org/) to stream most of my podcasts
+> Links are either Spotify or YouTube. I use [AntennaPod](https://antennapod.org/) to stream most of my podcasts.
+
 ### General Linux/Computer Science 
-- [Command Line Heros](https://www.redhat.com/en/command-line-heroes)
+- [Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
 > BIG recommendation
-- [syntax](https://www.youtube.com/@syntaxfm/videos)
+- [Syntax](https://www.youtube.com/@syntaxfm/videos)
 - [Self Hosted](https://open.spotify.com/show/7n6M9laXHppo9WzEBt6Xiq)
 - [2.5 Admins](https://open.spotify.com/show/5SnfOIrOCRtTbCaDifDgjO)
-- [Tech over Tea](https://www.youtube.com/@TechOverTea/videos)
-
+- [Tech Over Tea](https://www.youtube.com/@TechOverTea/videos)
 
 ### Cooking
 - [The Adam Ragusea Podcast](https://open.spotify.com/show/6z34TTi2emd05ZOOByOjaQ)
-- [Pod mit Ei ](https://www.youtube.com/@PodmitEi?app=desktop)[German]
+- [Pod mit Ei](https://www.youtube.com/@PodmitEi?app=desktop) [German]
 
 ### Business
 - [Pivot (Vox Media)](https://podcasts.voxmedia.com/show/pivot)
-- [Handelsblatt Morning Breefing](https://open.spotify.com/show/1QZr5NinuorbELLt2SwLJU) [German]
+- [Handelsblatt Morning Briefing](https://open.spotify.com/show/1QZr5NinuorbELLt2SwLJU) [German]
 
-### Podcasts that are TECHNICALLY YT Videos but I use them as Podcasts
+### Podcasts that are TECHNICALLY YouTube Videos but I Use them as Podcasts
 - [Natural World Facts](https://www.youtube.com/@NaturalWorldFacts)
-> Super interesting deep sea facts presented in a very relaxing way 
+> Super interesting deep-sea facts presented in a very relaxing way 
 - [Fall of Civilizations](https://www.youtube.com/@FallofCivilizations)
-> Episodes about a vareiety of civilisations and detailed explanations how they fell
-- [The Primagen](https://www.youtube.com/@ThePrimeagen)
+> Episodes about a variety of civilizations with detailed explanations on how they fell
+- [The Primeagen](https://www.youtube.com/@ThePrimeagen)
 > Tech news and stream highlights
 - [Lunduke Journal](https://www.youtube.com/@BryanLunduke)
-> Critical Linux news, more or less well researched 
+> Critical Linux news, more or less well-researched
