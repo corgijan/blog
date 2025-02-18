@@ -18,9 +18,13 @@ author: Jan Vaorin
 - [Self Hosted](https://open.spotify.com/show/7n6M9laXHppo9WzEBt6Xiq)
 - [2.5 Admins](https://open.spotify.com/show/5SnfOIrOCRtTbCaDifDgjO)
 - [Tech Over Tea](https://www.youtube.com/@TechOverTea/videos)
+- [Hybrid Cloud Show](https://hybridcloudshow.com/)
+- [Database School by Aaron Francis](https://www.youtube.com/watch?v=gjv56vu1dO4&list=PLI72dgeNJtzqElnNB6sQoAn2R-F3Vqm15)
+- [Mostly Technical](https://www.youtube.com/@MostlyTechnical)
 
-### Cooking
+### Cooking / Cooking Science
 - [The Adam Ragusea Podcast](https://open.spotify.com/show/6z34TTi2emd05ZOOByOjaQ)
+- [The Adam Ragusea YT](https://www.youtube.com/@aragusea)
 - [Pod mit Ei](https://www.youtube.com/@PodmitEi?app=desktop) [German]
 
 ### Business
@@ -34,5 +38,3 @@ author: Jan Vaorin
 > Episodes about a variety of civilizations with detailed explanations on how they fell
 - [The Primeagen](https://www.youtube.com/@ThePrimeagen)
 > Lots of general tech news 
-- [Lunduke Journal](https://www.youtube.com/@BryanLunduke)
-> Critical Linux news, more or less well-researched
