@@ -4,6 +4,8 @@
 
 layout: home
 cover-img: /assets/images/cw.jpg
-title: Jans Blog
+title: 🦊 corgijans blog
+subtitle: tech, coffee and corgis
+
 ---
 
