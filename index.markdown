@@ -4,5 +4,6 @@
 
 layout: home
 cover-img: /assets/images/cw.jpg
+title: Jans Blog
 ---
 
