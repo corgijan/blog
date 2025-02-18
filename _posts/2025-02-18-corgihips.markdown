@@ -2,7 +2,7 @@
 layout: post
 title: Corgi Hip Images 
 subtitle: 
-cover-img: /assets/images/dog6_merle.jpg
+cover-img: /assets/images/cw.jpg
 thumbnail-img:  
 share-img: 
 tags: [corgi, genetics, hip]
@@ -10,6 +10,12 @@ author: Jan Vaorin
 ---
 
 # Corgihips
+I try to update them over time. The results are by OFA taken from friends and family.
+Feel free to link to this.
+I hope more images will follow to make the results of your dog comparable. 
+Contact me if you want your own hips listed.
+
+
 
 ## Excellent
 
