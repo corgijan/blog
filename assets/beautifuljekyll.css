@@ -737,7 +737,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 @media (max-width: 365px) {
   .header-section.has-img .intro-header.no-img {
-    display: block;
+    display: none;
   }
   .intro-header.big-img {
     width: 100%;
@@ -745,8 +745,9 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading {
-    display: none;
+    display: block;
   }
+  .intro-header .post-heading h1 {font-size: 1.6rem}
   .header-section.has-img .big-img {
     margin-bottom: 0;
   }
