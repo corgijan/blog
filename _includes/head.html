@@ -1,7 +1,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <style>
+    @media (max-width: 365px) {
+    .header-section.has-img .intro-header.no-img {
+        display: none!important;
+      }
+  .intro-header .post-heading h1 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    }
+  .intro-header .post-heading span {
+    margin-top: 0;
+    font-size: 1rem;
+    }
+    }
+  </style>
   {% capture pagetitle %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
