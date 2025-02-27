@@ -37,8 +37,6 @@ div.scroll-container img {
 }
 </style>
 <div class="scroll-container">
-<img src="/assets/images/e1.png"  />
-<img src="/assets/images/e2.png"  />
 <img src="/assets/images/hips/a/a1.jpg"  />
 <img src="/assets/images/hips/a/a2.jpg"  />
 <img src="/assets/images/hips/a/a3.jpg"  />
@@ -64,6 +62,5 @@ div.scroll-container img {
 <img src="/assets/images/m1.png"  />
 <img src="/assets/images/hips/d/d1.jpg"  />
 <img src="/assets/images/hips/d/d2.jpg"  />
-<img src="/assets/images/hips/d/d3.png"  />
-<img src="/assets/images/hips/d/d4.png"  />
+<img src="/assets/images/hips/d/m1.jpg"  />
 </div>
