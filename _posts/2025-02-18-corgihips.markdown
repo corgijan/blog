@@ -57,9 +57,8 @@ div.scroll-container img {
 </div>
 ## Mild/Moderate
 <div class="scroll-container">
-<img src="/assets/images/m1.png"  />
 <img src="/assets/images/hips/d/d1.jpg"  />
 <img src="/assets/images/hips/d/d2.jpg"  />
-<img src="/assets/images/hips/d/m1.jpg"  />
+<img src="/assets/images/hips/d/m1.png"  />
 </div>
 
