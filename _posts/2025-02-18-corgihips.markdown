@@ -20,22 +20,39 @@ In the following sections, a curated list of hip x-rays is presented alongside p
 
 
 ## Excellent
+<style>
+img{
+    max-width:365px;
+    height:auto;
+}
+</style>
 
-<img src="/assets/images/e1.png" style="max-width: 365px; height: auto;" />
-<img src="/assets/images/e2.png" style="max-width: 365px; height: auto;" />
+<img src="/assets/images/e1.png"  />
+<img src="/assets/images/e2.png"  />
+<img src="/assets/images/hips/a/a1.jpg"  />
+<img src="/assets/images/hips/a/a2.jpg"  />
+<img src="/assets/images/hips/a/a3.jpg"  />
+<img src="/assets/images/hips/a/a4.jpg"  />
+<img src="/assets/images/hips/a/a5.jpg"  />
 
 ## Good
-<img src="/assets/images/g2.png" style="max-width: 365px; height: auto;" />
-<img src="/assets/images/g3.png" style="max-width: 365px; height: auto;" />
-<img src="/assets/images/g4.png" style="max-width: 365px; height: auto;" />
-<img src="/assets/images/g5.png" style="max-width: 365px; height: auto;" />
+<img src="/assets/images/g2.png"  />
+<img src="/assets/images/g3.png"  />
+<img src="/assets/images/g4.png"  />
+<img src="/assets/images/g5.png"  />
+<img src="/assets/images/hips/b/b1.jpg"  />
+<img src="/assets/images/hips/b/b2.jpg"  />
 
 
 ## Borderline
-<img src="/assets/images/b1.png" style="max-width: 365px; height: auto;" />
-
+<img src="/assets/images/b1.png" />
+<img src="/assets/images/hips/c/cq.jpg"  />
 
 ## Mild
-<img src="/assets/images/m1.png" style="max-width: 365px; height: auto;" />
+<img src="/assets/images/m1.png"  />
+<img src="/assets/images/hips/d/d1.jpg"  />
+<img src="/assets/images/hips/d/d2.jpg"  />
+<img src="/assets/images/hips/d/d3.jpg"  />
+<img src="/assets/images/hips/d/d4.jpg"  />
 
 ## Moderate
