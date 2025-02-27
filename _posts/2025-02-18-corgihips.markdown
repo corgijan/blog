@@ -21,10 +21,6 @@ In the following sections, a curated list of hip x-rays is presented alongside p
 
 ## Excellent
 <style>
-img{
-    width: auto;
-    height:150px;
-}
 div.scroll-container {
   background-color: #333;
   overflow: auto;
@@ -34,6 +30,8 @@ div.scroll-container {
 
 div.scroll-container img {
   padding: 10px;
+    width: auto;
+    height:150px;
 }
 </style>
 <div class="scroll-container">
