@@ -65,7 +65,7 @@ div.scroll-container img {
         document.addEventListener("DOMContentLoaded", function() {
             const images = document.querySelectorAll('img');
             images.forEach((img) => {
-                const src = img.getAttribute('data-src');
+                const src = img.getAttribute('src');
                 if (src) {
                     img.addEventListener('click', function() {
                         lightbox = new FsLightbox();
