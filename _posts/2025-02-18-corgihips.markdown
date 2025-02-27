@@ -61,7 +61,7 @@ div.scroll-container img {
 <img src="/assets/images/hips/d/d2.jpg"  />
 <img src="/assets/images/hips/d/m1.png"  />
 </div>
-    <script>
+<script>
         document.addEventListener("DOMContentLoaded", function() {
             const images = document.querySelectorAll('img');
             images.forEach((img) => {
@@ -73,11 +73,11 @@ div.scroll-container img {
                         lightbox.open();
                         const fullscreenButton = document.querySelector('.fslightbox-toolbar-button.fslightbox-flex-centered[title="Enter fullscreen"]');
                         if (fullscreenButton) {fullscreenButton.style.display = 'none';}})}});});
-    </script>
-    <style>
+</script>
+<style>
     .fslightbox-source {max-height: 100vh ;min-width: 45vw!important;height: auto!important;width: auto!important;}
     @media screen and (max-width: 768px) {.fslightbox-source {width: 100vw!important;height: auto}}
     .stayopen[open] summary {display: none;}
-    </style>
+</style>
 
 
