@@ -37,7 +37,6 @@ div.scroll-container img {
 <div class="scroll-container">
 <img src="/assets/images/hips/a/a1.jpg"  />
 <img src="/assets/images/hips/a/a2.jpg"  />
-<img src="/assets/images/hips/a/a3.jpg"  />
 <img src="/assets/images/hips/a/a4.jpg"  />
 <img src="/assets/images/hips/a/a5.jpg"  />
 </div>
@@ -75,7 +74,7 @@ div.scroll-container img {
                         if (fullscreenButton) {fullscreenButton.style.display = 'none';}})}});});
 </script>
 <style>
-    .fslightbox-source {max-height: 80vh ;min-width: 45vw!important;height: auto!important;width: auto!important;}
+    .fslightbox-source {max-height: 80vh ;height: auto!important;width: auto!important;}
     @media screen and (max-width: 768px) {.fslightbox-source {width: 100vw!important;height: auto}}
     .stayopen[open] summary {display: none;}
 </style>
