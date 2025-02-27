@@ -43,7 +43,7 @@ div.scroll-container img {
 </div>
 ## Good
 <div class="scroll-container">
-<img src="/assets/images/g2.png"  />
+<img src="/assets/images/g2.png" data-src="/assets/images/g2.png" />
 <img src="/assets/images/g3.png"  />
 <img src="/assets/images/g4.png"  />
 <img src="/assets/images/g5.png"  />
@@ -62,3 +62,4 @@ div.scroll-container img {
 <img src="/assets/images/hips/d/d2.jpg"  />
 <img src="/assets/images/hips/d/m1.jpg"  />
 </div>
+
