@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Corgihips by Example
+title: Corgi Hi____ps by Exapm_____le 
 subtitle: 
 cover-img: /assets/images/cw.jpg
 thumbnail-img:  
@@ -8,8 +8,6 @@ share-img:
 tags: [corgi, genetics, hip]
 author: Jan Vaorin
 ---
-
-# Corgihips
 
 This document presents a detailed analysis of corgi hip x-rays, offering a systematic examination of the radiographic data collected from various subjects. The study is focused on the utilization of x-ray imaging to assess the anatomical structure and integrity of the hip joints in corgis, which is critical for the early identification and quantification of dysplastic changes.
 
