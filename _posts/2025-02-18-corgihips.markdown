@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Corgi Hips by Exapmle 
+title: Corgi hips by exapmle 
 subtitle: 
 cover-img: /assets/images/cw.jpg
 thumbnail-img:  

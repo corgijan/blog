@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Podcast List 
+title: podcast list 
 subtitle: An updated list of podcasts I've enjoyed over time and listened to the most
 cover-img: /assets/images/img2.jpg
 thumbnail-img:  
