@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Corgi hips by exapmle 
+title: Corgi hips by example 
 subtitle: 
 cover-img: /assets/images/cw.jpg
 thumbnail-img:  
@@ -38,9 +38,9 @@ div.scroll-container img {
 <img src="/assets/images/hips/a/a4.jpg"  />
 <img src="/assets/images/hips/a/a5.jpg"  />
 </div>
-## Good
+## Good / Fair / Borderline (will be split up later)
 <div class="scroll-container">
-<img src="/assets/images/g2.png" data-src="/assets/images/g2.png" />
+<img src="/assets/images/g2.png"  />
 <img src="/assets/images/g3.png"  />
 <img src="/assets/images/g4.png"  />
 <img src="/assets/images/g5.png"  />
@@ -49,10 +49,9 @@ div.scroll-container img {
 </div>
 ## Borderline
 <div class="scroll-container">
-<img src="/assets/images/b1.png" />
 <img src="/assets/images/hips/c/cq.jpg"  />
 </div>
-## Mild/Moderate
+## Mild / Moderate
 <div class="scroll-container">
 <img src="/assets/images/hips/d/d1.jpg"  />
 <img src="/assets/images/hips/d/d2.jpg"  />
