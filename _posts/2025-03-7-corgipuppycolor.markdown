@@ -130,9 +130,7 @@ Before diving into specific colors, let's understand what coat colors exist in P
     </div>
   </div>
 </div>
-For more detailed information about the genetics behind these colors, check out my previous 
-
-[blog post on Corgi color genetics](/2021/04/23/fabgenetikcorgi.html ).
+For more detailed information about the genetics behind these colors, check out my previous [blog post](/2021/04/23/fabgenetikcorgi.html) on Corgi color genetics.
 
 ## Red (and White)
 
