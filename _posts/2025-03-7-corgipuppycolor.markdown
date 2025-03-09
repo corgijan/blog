@@ -102,7 +102,7 @@ Before diving into specific colors, let's understand what coat colors exist in P
 | Tricolor | Black-headed tri, red-headed tri                    |
 
 <div style="margin-bottom: 20px">
-<div >
+</div>
 
 <div class="img-row">
   <div class="img-col">
