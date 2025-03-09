@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Understanding Corgi Puppy Coat Color Development
-subtitle: A Visual Guide to How Corgi Colors Change as They Grow
+title: Corgi Puppy Coat Color Development
 cover-img: /assets/images/landscape1.jpg
 thumbnail-img:  
 share-img: 
