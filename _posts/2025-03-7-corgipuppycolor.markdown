@@ -39,6 +39,16 @@ author: Jan Vaorin
     max-width: 400px;
     height: 250px; /* Fixed height for columns */
 }
+.button{
+    padding: 20px;
+    background-color: #309151;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    border: 0px;
+}
 
 /* Bottom left text */
 .bl {
@@ -78,6 +88,25 @@ author: Jan Vaorin
     }
 }
 </style>
+<script >
+function toggle(c) {
+  if (c=="en"){
+    var x = document.getElementById("en");
+    var y = document.getElementById("ger");
+  }else {
+    var x = document.getElementById("ger");
+    var y = document.getElementById("en");
+    }
+        x.style.display = "block";
+        y.style.display = "none";
+}
+</script>
+
+<button class="button"  onclick="toggle('en')" >Switch to ENG</button>
+<button class="button" onclick="toggle('ger')" >Switch to GERMAN</button>
+
+<div id="en" markdown="1">
+
 
 Have you ever looked at a tiny Corgi puppy
 and wondered what color it will grow up to be? 
@@ -321,6 +350,255 @@ I hope this visual guide helps you better understand the colorful journey of Cor
 
 *Special thanks to all image owners for allowing me to use their photographs in this educational guide.*
 
+</div>
+
+<div id="ger" style="display: none" markdown="1">
+
+Übersetzung: AI (werde ich aber demnächst überarbeiten)
+Haben Sie jemals einen kleinen Corgi-Welpen betrachtet
+und sich gefragt, welche Farbe er als erwachsener Hund haben wird?
+Damit sind Sie nicht allein!
+Während eines kürzlichen Tierarztbesuchs stellte mir mein eigener Tierarzt genau die Frage, die zu diesem Ratgeber führte: "Wie kann ich wissen, wie ein Welpe später aussehen wird?"
+
+Corgi-Welpen durchlaufen bemerkenswerte Farbveränderungen
+während sie heranwachsen, und was Sie in der ersten Woche sehen,
+kann sich drastisch von dem unterscheiden, was sich mit einem Jahr zeigt.
+
+Folgen Sie uns, während wir jede Farbvariante mit Vorher-Nachher-Vergleichen derselben Hunde in verschiedenen Altersstufen erkunden. Am Ende dieses Beitrags werden Sie in der Lage sein, jeden Corgi-Welpen zu betrachten und eine fundierte Vermutung über sein zukünftiges Erscheinungsbild anzustellen!
+
+## Corgi-Farbgrundlagen
+
+Bevor wir in spezifische Farben eintauchen, lassen Sie uns verstehen, welche Fellfarben bei Pembroke Welsh Corgis existieren:
+
+| Farbtyp | Variationen                                          |
+|------------|-----------------------------------------------------|
+| Rot | Von hellem Beige bis tiefrot                      |
+| Zobel | Vollständiger Zobel mit Kappe bis kaum von Rot zu unterscheiden |
+| Dreifarbig | Schwarz-Kopf-Tricolor, Rot-Kopf-Tricolor            |
+
+<div style="margin-bottom: 20px">
+</div>
+
+<div class="img-row">
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/rht_old.jpg" alt="Roter Corgi" />
+      <div class="bl">Erwachsener Rot-Kopf-Tricolor</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/bhtold.jpg" alt="Roter Corgi" />
+      <div class="bl">Erwachsener Schwarz-Kopf-Tricolor</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/reds.jpg" alt="Roter Corgi" />
+      <div class="bl">Eine Auswahl roter Corgis</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/lucy4.jpg" alt="Roter Corgi" />
+      <div class="bl">Zobel</div>
+    </div>
+  </div>
+</div>
+Für ausführlichere Informationen über die Genetik hinter diesen Farben, lesen Sie meinen vorherigen [Blog-Beitrag](/2021/04/23/fabgenetikcorgi.html) über die Farbgenetik bei Corgis.
+
+## Rot (und Weiß)
+
+Rote Corgis sind meiner Meinung nach am einfachsten zu identifizieren. Sie haben bei der Geburt ein gräulich-rotes Fell, das sich mit dem Heranwachsen zu einer echten roten Farbe entwickelt.
+
+<div class="container">
+<img class="img" src="/assets/images/welpen/poppy.jpg" alt="Roter Corgi" />
+<div class="bl">
+Welpen im Alter von etwa einer Woche
+</div></div>
+
+Selbst das ungeübte Auge kann erkennen, dass der Welpe, der der Kamera am nächsten ist, ein roter Welpe ist, während die anderen komplett schwarz erscheinen.
+
+Beachten Sie, dass Rot von einem hellen Beige bis zu einem tiefen Rot reichen kann. Intensiv gefärbte Welpen behalten tendenziell ihre kräftige Farbe bei, während anfänglich gräuliche Welpen im Laufe der Zeit auch eine lebhafte Färbung entwickeln können.
+
+Hier können Sie die Entwicklung eines roten (oder genauer gesagt, Zobel, worüber wir später sprechen werden) Mädchens sehen:
+
+<div class="img-row">
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/lucy2.jpg" alt="Roter Corgi" />
+      <div class="bl">4 Wochen</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/lucy1.jpg" alt="Roter Corgi" />
+      <div class="bl">8 Wochen</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/lucy4.jpg" alt="Roter Corgi" />
+      <div class="bl">1,5 Jahre</div>
+    </div>
+  </div>
+</div>
+
+## Dreifarbig (Tricolor)
+
+Dreifarbige Welpen sind bei der Geburt deutlich zu erkennen, da sie tendenziell überwiegend schwarz mit kaum roter Färbung sind. Mit zunehmendem Alter verblassen sie allmählich und zeigen mehr rote Färbung.
+
+Die Geschwindigkeit und das Muster dieses Verblassens hängen davon ab, ob es sich um Schwarz-Kopf- oder Rot-Kopf-Tricolors handelt. Rot-Kopf-Tricolors verblassen schneller, und im Alter von etwa 1,5 Jahren werden sie kaum noch Schwarz am Kopf haben und nur ein schwarzes Sattel-Muster auf dem Rücken behalten.
+
+### Augenbraue als Indikator vs. Ohrspitze
+
+Viele Menschen verwenden die innere Ohrspitze als Indikator für die endgültige Farbe des Hundes, aber die Erfahrung zeigt, dass diese Methode nicht immer zuverlässig ist. Schwarz-Kopf-faktorierte Rot-Kopf-Tricolors können bis zu drei Monaten eine schwarze Spitze im Ohr behalten.
+
+Ein zuverlässigerer Indikator ist die Position und der Rand des Augenbrauenpunkts:
+
+- Bei BHT (Schwarz-Kopf-Tricolors): Der Rand des Augenbrauenpunkts ist deutlich vom Schwarz des Kopfes getrennt. Er ist kleiner und befindet sich über dem ersten Drittel des Auges.
+- Bei RHT (Rot-Kopf-Tricolors): Der Augenbrauenpunkt ist größer, befindet sich über dem größten Teil des Auges und hat einen viel verschwommeneren Umriss.
+
+<div class="img-row">
+  <div class="img-col">
+    <div class="container">
+      <img class="img2" src="/assets/images/welpen/scotty1.jpeg" alt="Dreifarbiger Corgi" style="crop: " />
+      <div class="bl">BHT 4 Wochen (klein und klar abgegrenzt)</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img2" src="/assets/images/welpen/rht1.jpeg" alt="Dreifarbiger Corgi" />
+      <div class="bl">RHT 4 Wochen (verschwommen)</div>
+    </div>
+  </div>
+</div>
+
+Zum Vergleich sehen Sie hier etwas ältere Welpen, die das gleiche Muster zeigen:
+
+<div class="img-row">
+  <div class="img-col" style="flex: 0!important;">
+    <div class="container">
+      <img class="img2" src="/assets/images/welpen/bht_young1.jpeg" alt="Dreifarbiger Corgi" />
+      <div class="bl">BHT</div>
+    </div>
+  </div>
+  <div class="img-col" style="flex: 0!important;">
+    <div class="container" >
+      <img class="img2" src="/assets/images/welpen/rht_young1.jpeg" alt="Dreifarbiger Corgi" />
+      <div class="bl">RHT</div>
+    </div>
+  </div>
+</div>
+
+Hier ist die Entwicklung eines Rot-Kopf-Tricolors. Beachten Sie, wie die schwarze Kappe in den ersten 1,5 Jahren verblasst, während das Rot intensiver wird:
+
+<div class="container">
+      <img class="img" src="/assets/images/welpen/tris.jpeg" alt="Dreifarbiger Corgi" />
+      <div class="bl">4 Wochen</div>
+    </div>
+
+<div class="img-row">
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/poppysuki.JPG" alt="Dreifarbiger Corgi" />
+      <div class="bl">10 Monate</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/poppy2.jpg" alt="Dreifarbiger Corgi" />
+      <div class="bl">8 Jahre</div>
+    </div>
+  </div>
+</div>
+
+## Zobel
+
+Zobel ist ein faszinierendes Farbmuster bei Corgis mit drei verschiedenen Ausprägungen:
+
+| Typ | Beschreibung |
+|--------------|------------------------------------------------------|
+| Vollständiger Zobel | Zobel mit schwarzer Kappe |
+| Versteckter Zobel | Zobel, der verblasst und rot erscheint |
+| Halber Zobel | Zobel, der Schwarz im Fell, aber nicht am Kopf zeigt |
+
+Was Zobel-Welpen besonders interessant macht, ist, dass sie bei der Geburt von roten Welpen nicht zu unterscheiden sind. Während das schwarze Haar bei roten Welpen schließlich verblasst, bleibt es bei Zobel-Welpen in unterschiedlichem Maße erhalten. Die ersten sichtbaren Anzeichen von Zobel erscheinen typischerweise im Alter von etwa 8 Wochen.
+
+<div class="container">
+      <img class="img" src="/assets/images/welpen/litter_red_sale.jpg" alt="Dreifarbiger Corgi" />
+      <div class="bl">Ein Wurf roter und Zobel-Welpen</div>
+    </div>
+
+Wie Sie oben sehen können, gibt es in diesem frühen Stadium keinen visuellen Unterschied zwischen den roten und den Zobel-Welpen.
+
+Nach 4-5 Wochen werden die ersten Anzeichen von Zobel im Fell sichtbar. Die schwarzen Haare sind auffälliger und geben dem Fell ein etwas "schmutzigeres" Aussehen im Vergleich zu reinen Roten:
+
+<div class="img-row">
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/lotte1.jpg" alt="Dreifarbiger Corgi" />
+      <div class="bl">Zobel 4 Wochen</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/puppysable1.jpg" alt="Dreifarbiger Corgi" />
+      <div class="bl">Rot 4 Wochen</div>
+    </div>
+  </div>
+</div>
+
+Nach 10 Wochen wird der Unterschied deutlicher:
+
+<div class="img-row">
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/sable1.jpg" alt="Dreifarbiger Corgi" />
+      <div class="bl">Derselbe Zobel 10 Wochen</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/red1.jpg" alt="Dreifarbiger Corgi" />
+      <div class="bl">Derselbe Rote 10 Wochen</div>
+    </div>
+  </div>
+</div>
+
+## Schwarze Maske
+
+Die schwarze Maske ist bei der Geburt deutlich sichtbar und bleibt während des gesamten Hundelebens relativ konstant. Bei Schwarz-Kopf-Tricolors (BHTs) ist die Maske oft fast unsichtbar, da sie mit der schwarzen Kopffärbung verschmilzt.
+
+<div class="img-row">
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/mask1.jpeg" alt="Corgi mit Maske" />
+      <div class="bl">Maske auf Rot/Zobel</div>
+    </div>
+  </div>
+  <div class="img-col">
+    <div class="container">
+      <img class="img" src="/assets/images/welpen/mask2.jpeg" alt="Corgi mit Maske" />
+      <div class="bl">Maskenentwicklung</div>
+    </div>
+  </div>
+</div>
+
+## Fazit
+
+Das Verständnis, wie sich die Fellfarben bei Corgis entwickeln, kann sowohl Züchtern als auch potenziellen Besitzern helfen, angemessene Erwartungen an das Erscheinungsbild eines erwachsenen Welpen zu setzen. Während die Genetik die Grundlage bildet, bietet die Betrachtung der tatsächlichen Entwicklung anhand von Fotografien wertvolle Einblicke in diesen faszinierenden Prozess.
+
+Denken Sie daran, dass jeder Corgi einzigartig ist und leichte Variationen auch innerhalb derselben Farbklassifikation auftreten können. Was jedoch konstant bleibt, ist, dass alle Corgis – unabhängig von ihrer Fellfarbe – die gleichen liebevollen, intelligenten und energiegeladenen Persönlichkeiten zu ihren Familien bringen!
+
+Ich hoffe, dieser visuelle Leitfaden hilft Ihnen, die farbenfrohe Reise von Corgi-Welpen zu verstehen, während sie zu erwachsenen Hunden heranwachsen. Wenn Sie Fragen zu bestimmten Farbmustern haben oder zusätzliche Beispiele sehen möchten, hinterlassen Sie bitte unten einen Kommentar!
+
+---
+
+*Besonderer Dank gilt allen Bildbesitzern,
+
+
+</div>
 <script>
         document.addEventListener("DOMContentLoaded", function() {
             const images = document.querySelectorAll('img');
@@ -338,4 +616,4 @@ I hope this visual guide helps you better understand the colorful journey of Cor
     .fslightbox-source {max-height: 80vh ;height: auto!important;width: auto!important;}
     @media screen and (max-width: 768px) {.fslightbox-source {width: 100vw!important;height: auto}}
     .stayopen[open] summary {display: none;}
-</style>
+<style>
