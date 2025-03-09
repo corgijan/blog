@@ -101,7 +101,8 @@ Before diving into specific colors, let's understand what coat colors exist in P
 | Sable | Full sable with a cap to indistingushable frrom red |
 | Tricolor | Black-headed tri, red-headed tri                    |
 
-
+<div style="margin-bottom: 20px">
+<div >
 
 <div class="img-row">
   <div class="img-col">
