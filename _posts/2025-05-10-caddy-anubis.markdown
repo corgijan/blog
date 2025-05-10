@@ -35,15 +35,18 @@ The Second Caddy Listens on port 7000 and reverse proxies via the `X-Forwarded-H
 }
 
 :7000 {
-    @valid {
-                header X-Forwarded-Host anubis.ex.ample
-        }
-    route {
-          respond @valid "You are IN" # you can reverse_proxy here to your destination
+    @validHeader {
+        header X-Forwarded-Host my.domain.com
     }
+
+    handle @validHeader {
+        reverse_proxy http://localhost:4001
+    }
+
     handle {
-          respond "You are Out"
+        respond "No soup for you!" 400
     }
+
 }
 ```
 and the docker-compose as an example
