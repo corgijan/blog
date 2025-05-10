@@ -2,7 +2,7 @@
 layout: post
 title: Caddy Reverse Proxy with Single Instance Anubis (Anti AI Crawler)
 subtitle: A better way to have multiple domains protected by anubis
-cover-img: /assets/images/landscape1.jpg
+cover-img: /assets/images/landscape11.jpg
 thumbnail-img: 
 share-img: 
 tags: [anubis,tech]
