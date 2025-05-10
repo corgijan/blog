@@ -13,7 +13,9 @@ author: Jan Vaorin
 Anubis is a powerful tool, but getting it set up can sometimes be a challenge. This blog post simplifies the process by demonstrating how corgijan can use Caddy for quick and easy deployment. Enjoy automatic HTTPS, simplified configuration, and a hassle-free Anubis setup.
 
 Our Topology is as follows. The Reverse Proxy uses the `X-Forwarded-Host` as an indication where the request came from. This could be set explicitly in the Caddyfile but is set per default.
-<img src="/assets/topo.svg" style="max-width:400px" alt="Anubis Topology">
+<div>
+<img src="/assets/topo.svg" style="max-width:400px;" alt="Anubis Topology">
+</div>
 Caddy 1 Config (Both pointing to the anubis instance)
 ```
 # Caddyfile-TLS-Term
