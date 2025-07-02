@@ -7,8 +7,15 @@ html {
 }
 
 
+@font-face {
+  font-family: 'Reddit Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/RedditSans-VariableFont_wght.ttf'); /* IE9 Compat Modes */
+}
+
 body {
-  font-family: "Vollkorn",'Lora', 'Times New Roman', serif;
+  font-family: "Reddit Sans",'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
   color: #CCCCCC;
   position: relative;
