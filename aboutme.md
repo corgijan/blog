@@ -7,7 +7,16 @@ cover-img: /assets/images/landscape11.jpg
 ---
 ## Jan Vaorin
 
-I'm a master's student at TU Dortmund University, where I mainly focus on cybersecurity, cloud security, databases, efficient data pipelines and DevSecOps / secure software development lifecycle. My work experience is at an IOT SaaS platform developer that does data analyses and aggregation. In my free time I'm always on the lookout for new things to explore with my Corgi. Also see [My private projects](https://blog.corgijan.dev/projects)
+Here is my TLDR: 
+
+Hi I'm Jan and I do IOT Software/Infrastructure. 
+I co-organise the [Rust Dortmund Meetup](https://rust-dortmund.de/main/) and Cyber-Security Working Group at Technical University Dortmund. 
+I develop [Corgi.Wiki](http://corgi.wiki) in my free time. 
+
+### My Talks:
+( Will be foudn here when the videos are online )
+
+I'm a master's student at TU Dortmund University, where I mainly focus on cybersecurity, cloud security, databases, efficient data pipelines and DevSecOps / secure software development lifecycle. My work experience is at an IOT SaaS platform developer that does authentication, authorisation, data analyses and aggregation. In my free time I'm always on the lookout for new things to explore with my Corgi. Also see [My private projects](https://blog.corgijan.dev/projects)
 ## Cybersecurity Advocate
 
 At TU Dortmund, I lead the Cybersecurity Working Group and am actively involved in nurturing the TU Software Architecture Community.
@@ -19,8 +28,4 @@ Furthermore I'm a proud owner of a Rancilio Silvia (the Linux of portafilters) a
 
 If im not programming or designing software you can find me bouldering or on my bike. 
 
-## Faculty work
-Im organizing the cybersecurity meeting at TU Dortmund where I do theoretical courses like "How does Open Source Intelligence work" and "What is confidential computing" and practical (programming) challenges sometimes even in cooperation with businesses participating in the cybersec scene. 
-
-Im also an active representative of the student body where I focus on the inter-student-body relations of the STEM field students. 
 
