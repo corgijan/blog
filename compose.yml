@@ -1,24 +1,29 @@
-version: '3.7'
+# Production: build the whole site and serve it with NGINX on
+# http://localhost:11001.
+#
+# Pages, posts, recipes and assets are all baked into the image by the
+# Dockerfile's build stage, so there is nothing to bind-mount and no way to end
+# up serving a half-built _site: the build either succeeds or the image is not
+# created. The healthcheck asks for the landing page and the recipe hub, so
+# `docker compose ps` reporting "healthy" means the site is really being served.
+# It uses 127.0.0.1 rather than localhost: busybox wget resolves localhost to
+# ::1 first and nginx only listens on IPv4.
 
 services:
-
-  jekyll:
-    image: bretfisher/jekyll-serve
-    environment:
-      JEKYLL_UID: 1000
-      JEKYLL_GID: 1000
-    command: sh -c "JEKYLL_ENV=production bundle exec jekyll build --trace"
-    volumes:
-      - .:/site:z
-
-  nginx:
-    image: nginx
+  blog:
+    # Builds from this checkout by default. To run the image published by
+    # GitHub Actions instead, set BLOG_IMAGE=<dockerhub-user>/corgijan-blog:latest
+    # and run `docker compose pull && docker compose up -d`.
+    image: ${BLOG_IMAGE:-corgijan-blog:latest}
+    build: .
     restart: always
-    volumes:
-      - ./_site:/usr/share/nginx/html:z
-      - ./config.nginx:/etc/nginx/conf.d/default.conf:z
     ports:
       - "11001:80"
-    depends_on:
-      - jekyll
-    command: /bin/sh -c "nginx -g 'daemon off;'"
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - wget -q --spider http://127.0.0.1/index.html && wget -q --spider http://127.0.0.1/recipes/
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

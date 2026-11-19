@@ -1,0 +1,17 @@
+# Build output and local tooling: none of it belongs in the build context.
+# site/ is the MkDocs branch's output directory - a stale copy of it would be
+# copied into the image and published alongside the real site.
+.git
+.github
+.gitignore
+.idea
+.devenv
+.venv
+.cache
+.jekyll-cache
+.sass-cache
+_site
+site
+vendor
+compose.yml
+compose.local.yml

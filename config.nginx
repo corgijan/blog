@@ -2,6 +2,12 @@ server {
     listen 80;
     server_name localhost;
 
+    # Directory URLs (/recipes -> /recipes/) must redirect relative to the
+    # request. Without this nginx sends an absolute URL built from its own
+    # http:// and port 80, which breaks the link on localhost:11001 and
+    # downgrades the scheme behind Caddy.
+    absolute_redirect off;
+
     location / {
         root /usr/share/nginx/html;
         index index.html index.htm;
