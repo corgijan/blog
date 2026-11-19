@@ -1,0 +1,10 @@
+/home/jan/.config/nixpkgs/overlays
+/home/jan/.config/nixpkgs/overlays.nix
+/home/jan/projects/blog2/blog/.devenv/bootstrap/bootstrapLib.nix
+/home/jan/projects/blog2/blog/.devenv/bootstrap/default.nix
+/home/jan/projects/blog2/blog/.devenv/bootstrap/resolve-lock.nix
+/home/jan/projects/blog2/blog/.env
+/home/jan/projects/blog2/blog/devenv.local.nix
+/home/jan/projects/blog2/blog/devenv.lock
+/home/jan/projects/blog2/blog/devenv.nix
+/home/jan/projects/blog2/blog/devenv.yaml
