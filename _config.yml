@@ -27,6 +27,19 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 url_website: "blog.corgijan.dev" #custom for menu
 # Build settings
 theme: beautiful-jekyll-theme
+
+# Recipes are a collection: one Markdown file per recipe in _recipes/,
+# published at /recipes/<name>.html, listed by the hub page in recipes.md.
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:name.html
+
+defaults:
+  - scope:
+      type: recipes
+    values:
+      layout: page
 plugins:
   - jekyll-feed
 site:
@@ -36,9 +49,9 @@ navbar-links:
   home: "index"
   about me: "aboutme"
   projects: "projects"
-  recipes: "https://rezepte.corgijan.dev"
+  recipes: "recipes"
   Resources:
-    - recipes: "https://rezepte.corgijan.dev" 
+    - recipes: "recipes"
     - corgi.wiki: "http://corgi.wiki"
     - git instance: "http://git.corgijan.dev"
     - blog: "http://blog.corgijan.dev"
@@ -66,6 +79,21 @@ navbar-links:
 #   - vendor/gems/
 #   - vendor/ruby/
 #
+# Jekyll's own defaults, plus site/ - that is where the MkDocs branch puts its
+# build output, and a stale copy of it in this checkout otherwise breaks the
+# sitemap. Listing a value here replaces the defaults, so they are repeated.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - site/
 avatar: "/assets/images/ava.jpg"
 
 

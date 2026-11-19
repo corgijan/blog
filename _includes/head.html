@@ -50,6 +50,54 @@
       display: none! important;
     }
   
+    /* Recipes: the meta strip on a recipe page, the card list on the hub. */
+    .recipe-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      margin: 0 0 1.5rem;
+      padding: 0.75rem 1rem;
+      list-style: none;
+      background-color: rgba(0, 0, 0, 0.12);
+      border-left: 3px solid #008AFF;
+      border-radius: 0.2rem;
+    }
+    .recipe-meta li {
+      margin: 0;
+    }
+    .recipe-meta span {
+      display: block;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      opacity: 0.7;
+    }
+    .recipe-list {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+      gap: 0.75rem;
+    }
+    .recipe-list li {
+      padding: 0.75rem 1rem;
+      background-color: rgba(0, 0, 0, 0.12);
+      border: 1px solid #666666;
+      border-radius: 0.2rem;
+    }
+    .recipe-list li:hover {
+      border-color: #008AFF;
+    }
+    .recipe-list a {
+      font-weight: 700;
+    }
+    .recipe-list span {
+      display: block;
+      margin-top: 0.25rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
     </style>
   {% capture pagetitle %}
     {%- if page.share-title -%}

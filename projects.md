@@ -30,7 +30,7 @@ This [Backup Solution](https://github.com/corgijan/small-backup) is the most sim
 </a>
 
 ## Recipe Blog
-This [recipe blog](http://rezepte.corgijan.dev) was a code golf project and sits currently at about 250 loc in one file and uses flask and sqlite to host, save, edit recipes and images.
+A code golf project: about 250 loc in one file, flask and sqlite to host, save and edit recipes and images, with the look of a blog from 1999. It served `rezepte.corgijan.dev` for a few years — the recipes now live [here on the blog](/recipes/) as plain Markdown, and the app has been retired.
 
 <a href="/assets/images/rezepte.png">
     <img src="/assets/images/rezepte.png" alt="drawing" width="300"/>
